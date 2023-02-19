@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> student registration page </title>
+    <style>
+        body {
+            background-color: rgb(60, 106, 115);
+
+        } 
+        form {
+            width: 500px;
+            height: 302px;
+            margin: 50px;
+            padding: 20px;
+            border: 2px solid transparent;
+            background-image: linear-gradient(to bottom right, rgb(37,248,51) ,yellow, rgb(73,194,250));
+        }
+        h1 {
+            text-align: center;
+            margin-top: -10px;
+        }
+        .empty {
+            background: transparent;
+            border: 1px solid rgb(10, 10, 10);
+
+        }
+      .empty :hover {
+    border-radius: 2px;
+    background-color: aliceblue;
+        } 
+</style>
+</head>
+                    <body>
+                        <form action="#" method="post">
+                            <h1> student registration form </h1>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <label for="fname"> first name </label>
+
+                                    </td>
+
+                                    <td>:
+                                        <input type="text" name="fname" id="fname" class="empty" placeholder="last name...">
+                                        </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <label for="accid"> user accont id </label>
+
+                                    </td>
+                                <td>:
+                                    <input type="text" name="accid" id="accid" class="empty" placeholder="enter your id here...">
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="pwd"> user accont password </label>
+                                    </td>
+
+                                    <td>:
+                                        <input type="password" name="pwd" id="pwd" class="empty" placeholder="enter your password here...">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="gender"> gender:</label>
+                                        
+
+                                    </td>
+                                <td>:
+                                    <input type="radio" name="gender" id="gender">male.
+                                    <input type="radio" name="gender" id="gender">female.
+                                </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="lang"> language: </label>
+
+                                    </td>
+                                <td>
+                                    <input type="checkbox" name="lang" id="lang">telugu
+                                    <input type="checkbox" name= "lang" id="lang">english
+                                    <input type="checkbox" name="lang" id="hindi">hindi
+                                </td>
+                                </tr>
+                                <tr> <form action="action.php" method="post">
+                                    <td>
+                                        <label for="cities"> select your cities </label>
+
+                                    </td>
+                                    <td>:
+                                        <select name="cities" class="empty" id="cities">
+                                            <option value="hyderabad"> hyderabad </option>
+                                            <option value="bangalore"> bangalore </option>
+                                            <option value="delhi"> delhi </option>
+                                            <option value="mumbai"> mumbai </option>
+                                        </select>
+                                    </td>
+                                    </form>
+                                    <tr>
+                                        <td>
+                                            <label for="about"> tell about yourself </label>
+
+                                        </td>
+                                    <td>
+                                        <textarea name="about" class="empty" id="about" cols="25" rows="4"> </textarea>
+                                    </td>
+                                    </tr>
+                                </tr>
+                            </table> 
+                        </form>   
+                    </body>
+ 
+        
+        
+        
+
+</head>
+<body>
+    
+</body>
+</html>
